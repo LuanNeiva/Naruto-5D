@@ -73,7 +73,7 @@
 						"name": { "rawtext": [ {"text":"§l§fPedra"} ] },
 						"commands": [
 							"/dialogue open @s @p cla1",
-							"tag @p add pedro"
+							"tag @p add pedra"
 
 						]
 					},
