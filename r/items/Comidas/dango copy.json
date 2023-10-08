@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+	  "description": {
+		"identifier": "porkyn:boost_chakra_2",
+		"category": "Equipment"
+	  },
+  
+	  "components": {
+		"minecraft:icon": "boost_chakra"
+		
+	  }
+	}
+  }

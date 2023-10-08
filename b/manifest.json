@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "§ePorkyn Play",
+    "name": "§l§6Naruto 5D",
+    "uuid": "077cb94c-53ec-11ee-8c99-0242ac120002",
+    "version": [
+      1,
+      8,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "§ePorkyn Play",
+      "type": "data",
+      "uuid": "0fb0f970-53ec-11ee-8c99-0242ac120002",
+      "version": [
+        1,
+        8,
+        0
+      ]
+    }
+  ],
+  "dependencies": null
+}

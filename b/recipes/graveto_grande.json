@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "porkyn:graveto_grande"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " B ",
+      "DEF",
+      " H "
+    ],
+    "key": {
+      "B": {
+        "item": "porkyn:escama_graveto_grande",
+        "data": 0
+      },
+      "E": {
+        "item": "porkyn:escama_graveto_grande",
+        "data": 0
+      },
+      "F": {
+        "item": "porkyn:escama_graveto_grande",
+        "data": 0
+      },
+      "D": {
+        "item": "porkyn:escama_graveto_grande",
+        "data": 0
+      },
+      "H": {
+        "item": "porkyn:graveto_grande",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "porkyn:graveto_grande",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

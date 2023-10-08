@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "porkyn:samehada"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " B ",
+      "DEF",
+      " H "
+    ],
+    "key": {
+      "B": {
+        "item": "porkyn:escama_samehada",
+        "data": 0
+      },
+      "E": {
+        "item": "porkyn:escama_samehada",
+        "data": 0
+      },
+      "F": {
+        "item": "porkyn:escama_samehada",
+        "data": 0
+      },
+      "D": {
+        "item": "porkyn:escama_samehada",
+        "data": 0
+      },
+      "H": {
+        "item": "porkyn:graveto_grande",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "porkyn:samehada",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

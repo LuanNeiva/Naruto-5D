@@ -1,0 +1,2787 @@
+{
+  "format_version": "1.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "walk",
+          "modos",
+          "dead",
+          "water",
+          "chakra",
+          "subs",
+	  "inicio",
+    "kamui_1",
+    "amaterasu_i",
+    "kamui_2",
+    "kamui_3",
+    "kamui_4",
+    "kamui_5",
+    "rinnegan_1",
+    "rinnegan_2",
+    "rinnegan_3",
+    "rinnegan_4",
+    "rinnegan_5",
+    "rinnegan_6",
+    "hiraishinmarca_1",
+    "hiraishinmarca_2",
+    "hiraishinmarca_3",
+    "hiraishinmarca_4",
+    "hiraishinmarca_5",
+    "hiraishinmarca_6",
+    "kakashi_branco",
+	  "kakashi_preto",
+    "kakashi_marrom",
+	  "kakashi_cinza",
+    "kakashi_amarelo",
+	  "kakashi_amarelo_e",
+    "kakashi_laranja",
+	  "kakashi_amarelo",
+    "kakashi_azul_c",
+	  "kakashi_azul_e",
+    "kakashi_verde_c",
+	  "kakashi_verde_e",
+    "kakashi_roxo",
+    "kakashi_rosa_c",
+	  "kakashi_rosa_e",
+    "kakashi2_branco",
+    "kakashi2_preto",
+    "kakashi2_marrom",
+    "kakashi2_cinza",
+    "kakashi2_amarelo",
+    "kakashi2_amarelo_e",
+    "kakashi2_laranja",
+    "kakashi2_amarelo",
+    "kakashi2_azul_c",
+    "kakashi2_azul_e",
+    "kakashi2_verde_c",
+    "kakashi2_verde_e",
+    "kakashi2_roxo",
+    "kakashi2_rosa_c",
+    "kakashi2_rosa_e",
+	  "samehada",
+    "samehadab",
+    "foice_tripla",
+    "gunbai",
+    "kubikiribocho",
+    "foice_triplab",
+    "gunbaib",
+    "kubikiribochob",
+    "walk",
+    "minato_jounin",
+    "health",
+    "max_health",
+    "hiraishin_tp",
+    "itachi_tp",
+    "rasengan",
+    "rinneganmenu",
+    "pele"  
+        ]
+      },
+      "animations": {
+        "modos": "controller.animation.modos",
+        "pele": "controller.animation.pele",
+	"chakra": "controller.animation.chakra",
+  "hiraishin_tp": "controller.animation.hiraishin_tp",
+  "itachi_tp": "controller.animation.itachi_tp",
+  "dead": "controller.animation.death",
+	"inicio": "animation.inicio",
+  "subs":"controller.animation.subs",
+  "minato_jounin":"controller.animation.minato_jounin",
+  "water": "controller.animation.water",
+  "amaterasu_i": "controller.animation.amaterasu_i",
+  "kamui_1": "controller.animation.kamui_1",
+  "kamui_2": "controller.animation.kamui_2",
+  "kamui_3": "controller.animation.kamui_3",
+  "kamui_4": "controller.animation.kamui_4",
+  "kamui_5": "controller.animation.kamui_5",
+  "hiraishinmarca_1": "controller.animation.hiraishinmarca_1",
+  "hiraishinmarca_2": "controller.animation.hiraishinmarca_2",
+  "hiraishinmarca_3": "controller.animation.hiraishinmarca_3",
+  "hiraishinmarca_4": "controller.animation.hiraishinmarca_4",
+  "hiraishinmarca_5": "controller.animation.hiraishinmarca_5",
+  "hiraishinmarca_6": "controller.animation.hiraishinmarca_6",
+  "rinnegan_1": "controller.animation.rinnegan_1",
+  "rinnegan_2": "controller.animation.rinnegan_2",
+  "rinnegan_3": "controller.animation.rinnegan_3",
+  "rinnegan_4": "controller.animation.rinnegan_4",
+  "rinnegan_5": "controller.animation.rinnegan_5",
+  "rinnegan_6": "controller.animation.rinnegan_6",
+  "kakashi_branco": "controller.animation.kakashi_branco",
+	"kakashi_preto": "controller.animation.kakashi_preto",
+	"kakashi_marrom": "controller.animation.kakashi_marrom",
+  "kakashi_cinza": "controller.animation.kakashi_cinza",
+	"kakashi_laranja": "controller.animation.kakashi_laranja",
+	"kakashi_vermelho": "controller.animation.kakashi_vermelho",
+  "kakashi_azul_e": "controller.animation.kakashi_azul_e",
+	"kakashi_azul_c": "controller.animation.kakashi_azul_c",
+	"kakashi_verde_c": "controller.animation.kakashi_verde_c",
+  "kakashi_verde_e": "controller.animation.kakashi_verde_e",
+	"kakashi_roxo": "controller.animation.kakashi_roxo",
+	"kakashi_rosa_e": "controller.animation.kakashi_rosa_e",
+  "kakashi_rosa_c": "controller.animation.kakashi_rosa_c",
+	"kakashi_amarelo": "controller.animation.kakashi_amarelo",
+	"kakashi_amarelo_e": "controller.animation.kakashi_amarelo_e",
+  "kakashi2_branco": "controller.animation.kakashi2_branco",
+  "kakashi2_preto": "controller.animation.kakashi2_preto",
+  "kakashi2_marrom": "controller.animation.kakashi2_marrom",
+  "kakashi2_cinza": "controller.animation.kakashi2_cinza",
+  "kakashi2_laranja": "controller.animation.kakashi2_laranja",
+  "kakashi2_vermelho": "controller.animation.kakashi2_vermelho",
+  "kakashi2_azul_e": "controller.animation.kakashi2_azul_e",
+  "kakashi2_azul_c": "controller.animation.kakashi2_azul_c",
+  "kakashi2_verde_c": "controller.animation.kakashi2_verde_c",
+  "kakashi2_verde_e": "controller.animation.kakashi2_verde_e",
+  "kakashi2_roxo": "controller.animation.kakashi2_roxo",
+  "kakashi2_rosa_e": "controller.animation.kakashi2_rosa_e",
+  "kakashi2_rosa_c": "controller.animation.kakashi2_rosa_c",
+  "kakashi2_amarelo": "controller.animation.kakashi2_amarelo",
+  "kakashi2_amarelo_e": "controller.animation.kakashi2_amarelo_e",
+  "samehada": "controller.animation.samehada",
+  "samehadab": "controller.animation.samehadab",
+  "foice_tripla": "controller.animation.foice_tripla",
+  "gunbai": "controller.animation.gunbai",
+  "kubikiribocho": "controller.animation.kubikiribocho",
+  "foice_triplab": "controller.animation.foice_triplab",
+  "gunbaib": "controller.animation.gunbaib",
+  "kubikiribochob": "controller.animation.kubikiribochob",
+  "walk": "controller.animation.walk",
+  "rasengan": "controller.animation.rasengan",
+  "health": "controller.animation.health",
+  "max_health": "controller.animation.max_health",
+  "rinneganmenu": "controller.animation.rinneganmenu" 
+      }
+    },
+    "component_groups": {
+      "m_pele1_azul":{
+        "minecraft:variant": {
+          "value": 201
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele1_verde":{
+        "minecraft:variant": {
+          "value": 202
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele1_amarelo":{
+        "minecraft:variant": {
+          "value": 203
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele1_vermelho":{
+        "minecraft:variant": {
+          "value": 204
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele1_rosa":{
+        "minecraft:variant": {
+          "value": 205
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele1_marrom":{
+        "minecraft:variant": {
+          "value": 206
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele1_preto":{
+        "minecraft:variant": {
+          "value": 207
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele1_branco":{
+        "minecraft:variant": {
+          "value": 208
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele2_azul":{
+        "minecraft:variant": {
+          "value": 209
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele2_verde":{
+        "minecraft:variant": {
+          "value": 210
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele2_amarelo":{
+        "minecraft:variant": {
+          "value": 211
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele2_vermelho":{
+        "minecraft:variant": {
+          "value": 212
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele2_rosa":{
+        "minecraft:variant": {
+          "value": 213
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele2_marrom":{
+        "minecraft:variant": {
+          "value": 214
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele2_preto":{
+        "minecraft:variant": {
+          "value": 215
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele2_branco":{
+        "minecraft:variant": {
+          "value": 216
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele3_azul":{
+        "minecraft:variant": {
+          "value": 217
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele3_verde":{
+        "minecraft:variant": {
+          "value": 218
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele3_amarelo":{
+        "minecraft:variant": {
+          "value": 219
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele3_vermelho":{
+        "minecraft:variant": {
+          "value": 220
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele3_rosa":{
+        "minecraft:variant": {
+          "value": 221
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele3_marrom":{
+        "minecraft:variant": {
+          "value": 222
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele3_preto":{
+        "minecraft:variant": {
+          "value": 223
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele3_branco":{
+        "minecraft:variant": {
+          "value": 224
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele4_azul":{
+        "minecraft:variant": {
+          "value": 225
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele4_verde":{
+        "minecraft:variant": {
+          "value": 226
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele4_amarelo":{
+        "minecraft:variant": {
+          "value": 227
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele4_vermelho":{
+        "minecraft:variant": {
+          "value": 228
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele4_rosa":{
+        "minecraft:variant": {
+          "value": 229
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele4_marrom":{
+        "minecraft:variant": {
+          "value": 230
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele4_preto":{
+        "minecraft:variant": {
+          "value": 231
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele4_branco":{
+        "minecraft:variant": {
+          "value": 232
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele5_azul":{
+        "minecraft:variant": {
+          "value": 233
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele5_verde":{
+        "minecraft:variant": {
+          "value": 234
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele5_amarelo":{
+        "minecraft:variant": {
+          "value": 235
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele5_vermelho":{
+        "minecraft:variant": {
+          "value": 236
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele5_rosa":{
+        "minecraft:variant": {
+          "value": 237
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele5_marrom":{
+        "minecraft:variant": {
+          "value": 238
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele5_preto":{
+        "minecraft:variant": {
+          "value": 239
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele5_branco":{
+        "minecraft:variant": {
+          "value": 240
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele6_azul":{
+        "minecraft:variant": {
+          "value": 241
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele6_verde":{
+        "minecraft:variant": {
+          "value": 242
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele6_amarelo":{
+        "minecraft:variant": {
+          "value": 243
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele6_vermelho":{
+        "minecraft:variant": {
+          "value": 244
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele6_rosa":{
+        "minecraft:variant": {
+          "value": 245
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele6_marrom":{
+        "minecraft:variant": {
+          "value": 246
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele6_preto":{
+        "minecraft:variant": {
+          "value": 247
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele6_branco":{
+        "minecraft:variant": {
+          "value": 248
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele7_azul":{
+        "minecraft:variant": {
+          "value": 249
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele7_verde":{
+        "minecraft:variant": {
+          "value": 250
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele7_amarelo":{
+        "minecraft:variant": {
+          "value": 251
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele7_vermelho":{
+        "minecraft:variant": {
+          "value": 252
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele7_rosa":{
+        "minecraft:variant": {
+          "value": 253
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele7_marrom":{
+        "minecraft:variant": {
+          "value": 254
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele7_preto":{
+        "minecraft:variant": {
+          "value": 255
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele7_branco":{
+        "minecraft:variant": {
+          "value": 256
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele8_azul":{
+        "minecraft:variant": {
+          "value": 257
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele8_verde":{
+        "minecraft:variant": {
+          "value": 258
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele8_amarelo":{
+        "minecraft:variant": {
+          "value": 259
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele8_vermelho":{
+        "minecraft:variant": {
+          "value": 260
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele8_rosa":{
+        "minecraft:variant": {
+          "value": 261
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele8_marrom":{
+        "minecraft:variant": {
+          "value": 262
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele8_preto":{
+        "minecraft:variant": {
+          "value": 263
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele8_branco":{
+        "minecraft:variant": {
+          "value": 264
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele9_azul":{
+        "minecraft:variant": {
+          "value": 265
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele9_verde":{
+        "minecraft:variant": {
+          "value": 266
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },  
+      "m_pele9_amarelo":{
+        "minecraft:variant": {
+          "value": 267
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele9_vermelho":{
+        "minecraft:variant": {
+          "value": 267
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele9_rosa":{
+        "minecraft:variant": {
+          "value": 268
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      },
+      "m_pele9_marrom":{
+        "minecraft:variant": {
+          "value": 269
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele9_preto":{
+        "minecraft:variant": {
+          "value": 270
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "m_pele9_branco":{
+        "minecraft:variant": {
+          "value": 271
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        }
+      }, 
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [ 0.0, 0.0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {
+        }
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [ "player" ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [ 0.4, -0.2, -0.1 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [ -0.4, -0.2, -0.1 ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_mob_effect",
+                  "subject": "self",
+                  "value": "bad_omen"
+                },
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:trigger_raid"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_azul"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 1
+                }
+              ]
+            },
+            "event": "m_pele1_azul"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_verde"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 2
+                }
+              ]
+            },
+            "event": "m_pele1_verde"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_amarelo"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 3
+                }
+              ]
+            },
+            "event": "m_pele1_amarelo"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_vermelho"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 4
+                }
+              ]
+            },
+            "event": "m_pele1_vermelho"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_rosa"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 5
+                }
+              ]
+            },
+            "event": "m_pele1_rosa"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_marrom"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 6
+                }
+              ]
+            },
+            "event": "m_pele1_marrom"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele1_preto"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 7
+                }
+              ]
+            },
+            "event": "m_pele1_preto"
+            },
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_tag",
+                    "subject": "self",
+                    "value": "m_pele1_branco"
+                  },
+                  {
+                  },
+                  {
+                    "test": "is_variant",
+                    "operator": "!=",
+                    "value": 8
+                  }
+                ]
+              },
+              "event": "m_pele1_branco"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_azul"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 9
+                    }
+                  ]
+                },
+                "event": "m_pele2_azul"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_verde"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 10
+                    }
+                  ]
+                },
+                "event": "m_pele2_verde"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_amarelo"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 11
+                    }
+                  ]
+                },
+                "event": "m_pele2_amarelo"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_vermelho"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 12
+                    }
+                  ]
+                },
+                "event": "m_pele2_vermelho"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_rosa"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 13
+                    }
+                  ]
+                },
+                "event": "m_pele2_rosa"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_marrom"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 14
+                    }
+                  ]
+                },
+                "event": "m_pele2_marrom"
+              },
+              {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_tag",
+                      "subject": "self",
+                      "value": "m_pele2_preto"
+                    },
+                    {
+                    },
+                    {
+                      "test": "is_variant",
+                      "operator": "!=",
+                      "value": 15
+                    }
+                  ]
+                },
+                "event": "m_pele2_preto"
+                },
+                {
+                  "filters": {
+                      "all_of": [
+                        {
+                          "test": "has_tag",
+                          "subject": "self",
+                          "value": "m_pele2_branco"
+                        },
+                        {
+                        },
+                        {
+                          "test": "is_variant",
+                          "operator": "!=",
+                          "value": 16
+                        }
+                      ]
+                    },
+                    "event": "m_pele2_branco"
+                  },
+                  {
+                      "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_azul"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 17
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_azul"
+                      },
+                      {
+                        "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_verde"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 18
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_verde"
+                      },
+                      {
+                        "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_amarelo"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 19
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_amarelo"
+                      },
+                      {
+                        "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_vermelho"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 20
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_vermelho"
+                      },
+                      {
+                        "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_rosa"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 21
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_rosa"
+                      },
+                      {
+                        "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_marrom"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 22
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_marrom"
+                      },
+                      {
+                        "filters": {
+                          "all_of": [
+                            {
+                              "test": "has_tag",
+                              "subject": "self",
+                              "value": "m_pele3_preto"
+                            },
+                            {
+                            },
+                            {
+                              "test": "is_variant",
+                              "operator": "!=",
+                              "value": 23
+                            }
+                          ]
+                        },
+                        "event": "m_pele3_preto"
+                        },
+                        {
+                          "filters": {
+                              "all_of": [
+                                {
+                                  "test": "has_tag",
+                                  "subject": "self",
+                                  "value": "m_pele3_branco"
+                                },
+                                {
+                                },
+                                {
+                                  "test": "is_variant",
+                                  "operator": "!=",
+                                  "value": 24
+                                }
+                              ]
+                            },
+                            "event": "m_pele3_branco"
+                          },
+                          {
+                              "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_azul"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 25
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_azul"
+                              },
+                              {
+                                "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_verde"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 26
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_verde"
+                              },
+                              {
+                                "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_amarelo"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 27
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_amarelo"
+                              },
+                              {
+                                "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_vermelho"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 28
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_vermelho"
+                              },
+                              {
+                                "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_rosa"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 29
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_rosa"
+                              },
+                              {
+                                "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_marrom"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 30
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_marrom"
+                              },
+                              {
+                                "filters": {
+                                  "all_of": [
+                                    {
+                                      "test": "has_tag",
+                                      "subject": "self",
+                                      "value": "m_pele4_preto"
+                                    },
+                                    {
+                                    },
+                                    {
+                                      "test": "is_variant",
+                                      "operator": "!=",
+                                      "value": 31
+                                    }
+                                  ]
+                                },
+                                "event": "m_pele4_preto"
+                                },
+                                {
+                                  "filters": {
+                                      "all_of": [
+                                        {
+                                          "test": "has_tag",
+                                          "subject": "self",
+                                          "value": "m_pele4_branco"
+                                        },
+                                        {
+                                        },
+                                        {
+                                          "test": "is_variant",
+                                          "operator": "!=",
+                                          "value": 32
+                                        }
+                                      ]
+                                    },
+                                    "event": "m_pele4_branco"
+                                  },
+                                  {
+                                      "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_azul"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 33
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_azul"
+                                      },
+                                      {
+                                        "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_verde"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 34
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_verde"
+                                      },
+                                      {
+                                        "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_amarelo"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 35
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_amarelo"
+                                      },
+                                      {
+                                        "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_vermelho"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 36
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_vermelho"
+                                      },
+                                      {
+                                        "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_rosa"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 37
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_rosa"
+                                      },
+                                      {
+                                        "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_marrom"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 38
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_marrom"
+                                      },
+                                      {
+                                        "filters": {
+                                          "all_of": [
+                                            {
+                                              "test": "has_tag",
+                                              "subject": "self",
+                                              "value": "m_pele5_preto"
+                                            },
+                                            {
+                                            },
+                                            {
+                                              "test": "is_variant",
+                                              "operator": "!=",
+                                              "value": 39
+                                            }
+                                          ]
+                                        },
+                                        "event": "m_pele5_preto"
+                                        },
+                                        {
+                                          "filters": {
+                                              "all_of": [
+                                                {
+                                                  "test": "has_tag",
+                                                  "subject": "self",
+                                                  "value": "m_pele5_branco"
+                                                },
+                                                {
+                                                },
+                                                {
+                                                  "test": "is_variant",
+                                                  "operator": "!=",
+                                                  "value": 40
+                                                }
+                                              ]
+                                            },
+                                            "event": "m_pele5_branco"
+                                          },
+                                          {
+                                              "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_azul"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 41
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_azul"
+                                              },
+                                              {
+                                                "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_verde"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 42
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_verde"
+                                              },
+                                              {
+                                                "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_amarelo"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 43
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_amarelo"
+                                              },
+                                              {
+                                                "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_vermelho"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 44
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_vermelho"
+                                              },
+                                              {
+                                                "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_rosa"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 45
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_rosa"
+                                              },
+                                              {
+                                                "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_marrom"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 46
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_marrom"
+                                              },
+                                              {
+                                                "filters": {
+                                                  "all_of": [
+                                                    {
+                                                      "test": "has_tag",
+                                                      "subject": "self",
+                                                      "value": "m_pele6_preto"
+                                                    },
+                                                    {
+                                                    },
+                                                    {
+                                                      "test": "is_variant",
+                                                      "operator": "!=",
+                                                      "value": 47
+                                                    }
+                                                  ]
+                                                },
+                                                "event": "m_pele6_preto"
+                                                },
+                                                {
+                                                  "filters": {
+                                                      "all_of": [
+                                                        {
+                                                          "test": "has_tag",
+                                                          "subject": "self",
+                                                          "value": "m_pele6_branco"
+                                                        },
+                                                        {
+                                                        },
+                                                        {
+                                                          "test": "is_variant",
+                                                          "operator": "!=",
+                                                          "value": 48
+                                                        }
+                                                      ]
+                                                    },
+                                                    "event": "m_pele6_branco"
+                                                  },
+                                                  {
+                                                      "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_azul"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 49
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_azul"
+                                                      },
+                                                      {
+                                                        "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_verde"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 50
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_verde"
+                                                      },
+                                                      {
+                                                        "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_amarelo"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 51
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_amarelo"
+                                                      },
+                                                      {
+                                                        "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_vermelho"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 52
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_vermelho"
+                                                      },
+                                                      {
+                                                        "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_rosa"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 53
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_rosa"
+                                                      },
+                                                      {
+                                                        "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_marrom"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 54
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_marrom"
+                                                      },
+                                                      {
+                                                        "filters": {
+                                                          "all_of": [
+                                                            {
+                                                              "test": "has_tag",
+                                                              "subject": "self",
+                                                              "value": "m_pele7_preto"
+                                                            },
+                                                            {
+                                                            },
+                                                            {
+                                                              "test": "is_variant",
+                                                              "operator": "!=",
+                                                              "value": 55
+                                                            }
+                                                          ]
+                                                        },
+                                                        "event": "m_pele7_preto"
+                                                        },
+                                                        {
+                                                          "filters": {
+                                                              "all_of": [
+                                                                {
+                                                                  "test": "has_tag",
+                                                                  "subject": "self",
+                                                                  "value": "m_pele7_branco"
+                                                                },
+                                                                {
+                                                                },
+                                                                {
+                                                                  "test": "is_variant",
+                                                                  "operator": "!=",
+                                                                  "value": 56
+                                                                }
+                                                              ]
+                                                            },
+                                                            "event": "m_pele7_branco"
+                                                          },
+                                                          {
+                                                              "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_azul"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 57
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_azul"
+                                                              },
+                                                              {
+                                                                "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_verde"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 58
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_verde"
+                                                              },
+                                                              {
+                                                                "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_amarelo"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 59
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_amarelo"
+                                                              },
+                                                              {
+                                                                "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_vermelho"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 60
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_vermelho"
+                                                              },
+                                                              {
+                                                                "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_rosa"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 61
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_rosa"
+                                                              },
+                                                              {
+                                                                "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_marrom"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 62
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_marrom"
+                                                              },
+                                                              {
+                                                                "filters": {
+                                                                  "all_of": [
+                                                                    {
+                                                                      "test": "has_tag",
+                                                                      "subject": "self",
+                                                                      "value": "m_pele8_preto"
+                                                                    },
+                                                                    {
+                                                                    },
+                                                                    {
+                                                                      "test": "is_variant",
+                                                                      "operator": "!=",
+                                                                      "value": 63
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "event": "m_pele8_preto"
+                                                                },
+                                                                {
+                                                                  "filters": {
+                                                                      "all_of": [
+                                                                        {
+                                                                          "test": "has_tag",
+                                                                          "subject": "self",
+                                                                          "value": "m_pele8_branco"
+                                                                        },
+                                                                        {
+                                                                        },
+                                                                        {
+                                                                          "test": "is_variant",
+                                                                          "operator": "!=",
+                                                                          "value": 64
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "event": "m_pele8_branco"
+                                                                  },
+                                                                  {
+                                                                      "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_azul"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 65
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_azul"
+                                                                      },
+                                                                      {
+                                                                        "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_verde"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 66
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_verde"
+                                                                      },
+                                                                      {
+                                                                        "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_amarelo"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 67
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_amarelo"
+                                                                      },
+                                                                      {
+                                                                        "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_vermelho"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 68
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_vermelho"
+                                                                      },
+                                                                      {
+                                                                        "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_rosa"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 69
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_rosa"
+                                                                      },
+                                                                      {
+                                                                        "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_marrom"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 70
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_marrom"
+                                                                      },
+                                                                      {
+                                                                        "filters": {
+                                                                          "all_of": [
+                                                                            {
+                                                                              "test": "has_tag",
+                                                                              "subject": "self",
+                                                                              "value": "m_pele9_preto"
+                                                                            },
+                                                                            {
+                                                                            },
+                                                                            {
+                                                                              "test": "is_variant",
+                                                                              "operator": "!=",
+                                                                              "value": 71
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "event": "m_pele9_preto"
+                                                                        },
+                                                                        {
+
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m_pele9_branco"
+                },
+                {
+                },
+                {
+                  "test": "is_variant",
+                  "operator": "!=",
+                  "value": 72
+                }
+              ]
+            },
+            "event": "m_pele9_branco"
+          }
+        ]
+      }
+    },
+    "events": { 
+      "m_pele1_azul": {
+        "add": {
+          "component_groups": [
+            "m_pele1_azul"
+          ]
+        }
+      },
+      "m_pele1_verde": {
+        "add": {
+          "component_groups": [
+            "m_pele1_verde"
+          ]
+        }
+      },
+      "m_pele1_amarelo": {
+        "add": {
+          "component_groups": [
+            "m_pele1_amarelo"
+          ]
+        }
+      },
+      "m_pele1_vermelho": {
+        "add": {
+          "component_groups": [
+            "m_pele1_vermelho"
+          ]
+        }
+      },
+      "m_pele1_rosa": {
+        "add": {
+          "component_groups": [
+            "m_pele1_rosa"
+          ]
+        }
+      },
+      "m_pele1_marrom": {
+        "add": {
+          "component_groups": [
+            "m_pele1_marrom"
+          ]
+        }
+      },
+      "m_pele1_preto": {
+        "add": {
+          "component_groups": [
+            "m_pele1_preto"
+          ]
+        }
+      },
+      "m_pele1_branco": {
+        "add": {
+          "component_groups": [
+            "m_pele1_branco"
+          ]
+        }
+      },
+      "m_pele2_azul": {
+        "add": {
+          "component_groups": [
+            "m_pele2_azul"
+          ]
+        }
+      },
+      "m_pele2_verde": {
+        "add": {
+          "component_groups": [
+            "m_pele2_verde"
+          ]
+        }
+      },
+      "m_pele2_amarelo": {
+        "add": {
+          "component_groups": [
+            "m_pele2_amarelo"
+          ]
+        }
+      },
+      "m_pele2_vermelho": {
+        "add": {
+          "component_groups": [
+            "m_pele2_vermelho"
+          ]
+        }
+      },
+      "m_pele2_rosa": {
+        "add": {
+          "component_groups": [
+            "m_pele2_rosa"
+          ]
+        }
+      },
+      "m_pele2_marrom": {
+        "add": {
+          "component_groups": [
+            "m_pele2_marrom"
+          ]
+        }
+      },
+      "m_pele2_preto": {
+        "add": {
+          "component_groups": [
+            "m_pele2_preto"
+          ]
+        }
+      },
+      "m_pele2_branco": {
+        "add": {
+          "component_groups": [
+            "m_pele2_branco"
+          ]
+        }
+      },
+      "m_pele3_azul": {
+        "add": {
+          "component_groups": [
+            "m_pele3_azul"
+          ]
+        }
+      },
+      "m_pele3_verde": {
+        "add": {
+          "component_groups": [
+            "m_pele3_verde"
+          ]
+        }
+      },
+      "m_pele3_amarelo": {
+        "add": {
+          "component_groups": [
+            "m_pele3_amarelo"
+          ]
+        }
+      },
+      "m_pele3_vermelho": {
+        "add": {
+          "component_groups": [
+            "m_pele3_vermelho"
+          ]
+        }
+      },
+      "m_pele3_rosa": {
+        "add": {
+          "component_groups": [
+            "m_pele3_rosa"
+          ]
+        }
+      },
+      "m_pele3_marrom": {
+        "add": {
+          "component_groups": [
+            "m_pele3_marrom"
+          ]
+        }
+      },
+      "m_pele3_preto": {
+        "add": {
+          "component_groups": [
+            "m_pele3_preto"
+          ]
+        }
+      },
+      "m_pele3_branco": {
+        "add": {
+          "component_groups": [
+            "m_pele3_branco"
+          ]
+        }
+      },
+          "m_pele4_azul": {
+            "add": {
+              "component_groups": [
+                "m_pele4_azul"
+              ]
+            }
+          },
+          "m_pele4_verde": {
+            "add": {
+              "component_groups": [
+                "m_pele4_verde"
+              ]
+            }
+          },
+          "m_pele4_amarelo": {
+            "add": {
+              "component_groups": [
+                "m_pele4_amarelo"
+              ]
+            }
+          },
+          "m_pele4_vermelho": {
+            "add": {
+              "component_groups": [
+                "m_pele4_vermelho"
+              ]
+            }
+          },
+          "m_pele4_rosa": {
+            "add": {
+              "component_groups": [
+                "m_pele4_rosa"
+              ]
+            }
+          },
+          "m_pele4_marrom": {
+            "add": {
+              "component_groups": [
+                "m_pele4_marrom"
+              ]
+            }
+          },
+          "m_pele4_preto": {
+            "add": {
+              "component_groups": [
+                "m_pele4_preto"
+              ]
+            }
+          },
+          "m_pele4_branco": {
+            "add": {
+              "component_groups": [
+                "m_pele4_branco"
+              ]
+            }
+          },
+          "m_pele5_azul": {
+            "add": {
+              "component_groups": [
+                "m_pele5_azul"
+              ]
+            }
+          },
+          "m_pele5_verde": {
+            "add": {
+              "component_groups": [
+                "m_pele5_verde"
+              ]
+            }
+          },
+          "m_pele5_amarelo": {
+            "add": {
+              "component_groups": [
+                "m_pele5_amarelo"
+              ]
+            }
+          },
+          "m_pele5_vermelho": {
+            "add": {
+              "component_groups": [
+                "m_pele5_vermelho"
+              ]
+            }
+          },
+          "m_pele5_rosa": {
+            "add": {
+              "component_groups": [
+                "m_pele5_rosa"
+              ]
+            }
+          },
+          "m_pele5_marrom": {
+            "add": {
+              "component_groups": [
+                "m_pele5_marrom"
+              ]
+            }
+          },
+          "m_pele5_preto": {
+            "add": {
+              "component_groups": [
+                "m_pele5_preto"
+              ]
+            }
+          },
+          "m_pele5_branco": {
+            "add": {
+              "component_groups": [
+                "m_pele5_branco"
+              ]
+            }
+          },
+          "m_pele6_azul": {
+            "add": {
+              "component_groups": [
+                "m_pele6_azul"
+              ]
+            }
+          },
+          "m_pele6_verde": {
+            "add": {
+              "component_groups": [
+                "m_pele6_verde"
+              ]
+            }
+          },
+          "m_pele6_amarelo": {
+            "add": {
+              "component_groups": [
+                "m_pele6_amarelo"
+              ]
+            }
+          },
+          "m_pele6_vermelho": {
+            "add": {
+              "component_groups": [
+                "m_pele6_vermelho"
+              ]
+            }
+          },
+          "m_pele6_rosa": {
+            "add": {
+              "component_groups": [
+                "m_pele6_rosa"
+              ]
+            }
+          },
+          "m_pele6_marrom": {
+            "add": {
+              "component_groups": [
+                "m_pele6_marrom"
+              ]
+            }
+          },
+          "m_pele6_preto": {
+            "add": {
+              "component_groups": [
+                "m_pele6_preto"
+              ]
+            }
+          },
+          "m_pele6_branco": {
+            "add": {
+              "component_groups": [
+                "m_pele6_branco"
+              ]
+            }
+          },
+          "m_pele7_azul": {
+            "add": {
+              "component_groups": [
+                "m_pele7_azul"
+              ]
+            }
+          },
+          "m_pele7_verde": {
+            "add": {
+              "component_groups": [
+                "m_pele7_verde"
+              ]
+            }
+          },
+          "m_pele7_amarelo": {
+            "add": {
+              "component_groups": [
+                "m_pele7_amarelo"
+              ]
+            }
+          },
+          "m_pele7_vermelho": {
+            "add": {
+              "component_groups": [
+                "m_pele7_vermelho"
+              ]
+            }
+          },
+          "m_pele7_rosa": {
+            "add": {
+              "component_groups": [
+                "m_pele7_rosa"
+              ]
+            }
+          },
+          "m_pele7_marrom": {
+            "add": {
+              "component_groups": [
+                "m_pele7_marrom"
+              ]
+            }
+          },
+          "m_pele7_preto": {
+            "add": {
+              "component_groups": [
+                "m_pele7_preto"
+              ]
+            }
+          },
+          "m_pele7_branco": {
+            "add": {
+              "component_groups": [
+                "m_pele7_branco"
+              ]
+            }
+          },
+          "m_pele8_azul": {
+            "add": {
+              "component_groups": [
+                "m_pele8_azul"
+              ]
+            }
+          },
+          "m_pele8_verde": {
+            "add": {
+              "component_groups": [
+                "m_pele8_verde"
+              ]
+            }
+          },
+          "m_pele8_amarelo": {
+            "add": {
+              "component_groups": [
+                "m_pele8_amarelo"
+              ]
+            }
+          },
+          "m_pele8_vermelho": {
+            "add": {
+              "component_groups": [
+                "m_pele8_vermelho"
+              ]
+            }
+          },
+          "m_pele8_rosa": {
+            "add": {
+              "component_groups": [
+                "m_pele8_rosa"
+              ]
+            }
+          },
+          "m_pele8_marrom": {
+            "add": {
+              "component_groups": [
+                "m_pele8_marrom"
+              ]
+            }
+          },
+          "m_pele8_preto": {
+            "add": {
+              "component_groups": [
+                "m_pele8_preto"
+              ]
+            }
+          },
+          "m_pele8_branco": {
+            "add": {
+              "component_groups": [
+                "m_pele8_branco"
+              ]
+            }
+          },
+          "m_pele9_azul": {
+            "add": {
+              "component_groups": [
+                "m_pele9_azul"
+              ]
+            }
+          },
+          "m_pele9_verde": {
+            "add": {
+              "component_groups": [
+                "m_pele9_verde"
+              ]
+            }
+          },
+          "m_pele9_amarelo": {
+            "add": {
+              "component_groups": [
+                "m_pele9_amarelo"
+              ]
+            }
+          },
+          "m_pele9_vermelho": {
+            "add": {
+              "component_groups": [
+                "m_pele9_vermelho"
+              ]
+            }
+          },
+          "m_pele9_rosa": {
+            "add": {
+              "component_groups": [
+                "m_pele9_rosa"
+              ]
+            }
+          },
+          "m_pele9_marrom": {
+            "add": {
+              "component_groups": [
+                "m_pele9_marrom"
+              ]
+            }
+          },
+          "m_pele9_preto": {
+            "add": {
+              "component_groups": [
+                "m_pele9_preto"
+              ]
+            }
+          },
+          "m_pele9_branco": {
+            "add": {
+              "component_groups": [
+                "m_pele9_branco"
+              ]
+            }
+          },
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      }
+    }
+  }
+}
